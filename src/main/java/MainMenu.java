@@ -95,7 +95,7 @@ public class MainMenu {
             throws IOException, InterruptedException {
         List<Participant> players = CSVHandler.load(participantsPath);
         if (players.isEmpty()) {
-            System.out.println("No participants found. Add members first!");
+            System.out.println("No participants found. Add members first");
             return;
         }
 
